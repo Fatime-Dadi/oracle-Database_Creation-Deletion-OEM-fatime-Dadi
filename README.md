@@ -1,7 +1,4 @@
-from pathlib import Path
-
-# Content of the README.md file
-readme_content = """# Assignment II: Database Creation, Deletion & OEM
+# Assignment II: Database Creation, Deletion & OEM
 
 **Student:** Fatime Dadi Wardougou  
 **Student ID:** 25858  
@@ -35,7 +32,7 @@ task1_pdb_creation.png – Successful creation of fa_pdb_25858
 
 task1_pdb_verification.png – Verification of PDB in READ WRITE mode
 
-🗑️ Task 2: Create and Delete a PDB — (2 Points)
+🗑️ Task 2: Create and Delete a PDB 
 
 PDB Name: fa_to_delete_pdb_25858
 User: fatime_delete_25858
@@ -50,7 +47,7 @@ task2_deletion_commands.png – Deletion commands executed successfully
 
 task2_final_verification.png – Final verification showing deletion complete
 
-🖥️ Task 3: Oracle Enterprise Manager (OEM) — (1 Point)
+🖥️ Task 3: Oracle Enterprise Manager (OEM) 
 Configuration Steps
 Always show details
 EXEC DBMS_XDB_CONFIG.SETHTTPPORT(8080);
