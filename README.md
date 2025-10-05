@@ -26,7 +26,7 @@ ADMIN USER fatime_plsqlauca_25858 IDENTIFIED BY auca2020
 CREATE_FILE_DEST = 'D:\\ORACLE21CHOME\\ORADATA\\ORCL\\';
 ```
 
-📸 Screenshots
+#### 📸 Screenshots
 <img width="674" height="383" alt="Task1 (2)" src="https://github.com/user-attachments/assets/c587898a-6c9d-40be-98cc-7000830f32ed" />
 
 
