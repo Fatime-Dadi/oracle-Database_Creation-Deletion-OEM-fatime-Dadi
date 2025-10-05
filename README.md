@@ -3,7 +3,7 @@
 **Student:** Fatime Dadi Wardougou  
 **Student ID:** 25858  
 **Course:** Database Development with PL/SQL (INSY 8311)  
-**Date:** October 4, 2025  
+**Date:** October 5, 2025  
 
 ---
 
@@ -25,12 +25,13 @@ CREATE PLUGGABLE DATABASE fa_pdb_25858
 ADMIN USER fatime_plsqlauca_25858 IDENTIFIED BY auca2020
 CREATE_FILE_DEST = 'D:\\ORACLE21CHOME\\ORADATA\\ORCL\\';
 
+📸 Screenshots
+<img width="674" height="383" alt="Task1 (2)" src="https://github.com/user-attachments/assets/c587898a-6c9d-40be-98cc-7000830f32ed" />
+
 
 📸 Screenshots
+<img width="813" height="307" alt="Task1_aftercreation" src="https://github.com/user-attachments/assets/c6d56cf9-0fb8-4a61-8092-f793bc4d0031" />
 
-task1_pdb_creation.png – Successful creation of fa_pdb_25858
-
-task1_pdb_verification.png – Verification of PDB in READ WRITE mode
 
 🗑️ Task 2: Create and Delete a PDB 
 
@@ -38,14 +39,14 @@ PDB Name: fa_to_delete_pdb_25858
 User: fatime_delete_25858
 
 📸 Screenshots
+<img width="443" height="113" alt="Task2_creation" src="https://github.com/user-attachments/assets/663a09c3-4435-46d9-bbd7-6eaae1317504" />
 
-task2_pdb_creation.png – Creation of fa_to_delete_pdb_25858
+📸 Screenshots
+<img width="543" height="121" alt="Task2_after_creation" src="https://github.com/user-attachments/assets/d61a4d0a-0aaf-45c3-b034-1ebf99bdc8f5" />
 
-task2_both_pdbs_exist.png – Both FA_PDB_25858 and FA_TO_DELETE_PDB_25858 visible
+📸 Screenshots
+<img width="553" height="126" alt="Task2_deletion" src="https://github.com/user-attachments/assets/37f25032-4dcd-4b3d-9bef-7048e9550406" />
 
-task2_deletion_commands.png – Deletion commands executed successfully
-
-task2_final_verification.png – Final verification showing deletion complete
 
 🖥️ Task 3: Oracle Enterprise Manager (OEM) 
 Configuration Steps
@@ -63,9 +64,14 @@ Login Credentials: system / auca2020
 
 📸 Screenshots
 
-task3_oem_dashboard.png – OEM Dashboard showing CDB with 2 active PDBs
+<img width="607" height="319" alt="task3_completed_task1,2" src="https://github.com/user-attachments/assets/d1c6ccf6-cb0b-41e7-a8ad-bdef017f9cc3" />
 
-task3_oem_containers.png – OEM “Containers” view confirming only active PDBs
+📸 Screenshots
+<img width="925" height="418" alt="task3_2" src="https://github.com/user-attachments/assets/ccfaffe1-1ed8-4b62-8356-ae7d20ff146c" />
+
+📸 Screenshots
+<img width="941" height="402" alt="task3_2_1" src="https://github.com/user-attachments/assets/9dacc2c9-5ce5-486f-ac9c-a8164dd38a48" />
+
 
 ⚙️ Issues Encountered & Solutions
 🧱 Issue 1: File Path Errors During PDB Creation
